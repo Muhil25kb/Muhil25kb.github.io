@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhil K B | Portfolio</title>
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; background: #f5f7fa; color: #222; }
+    header { background: #212121; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; font-size: 1.5rem; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: 500; }
+    section { padding: 3rem 2rem; }
+    .hero { text-align: center; padding: 5rem 2rem; background: linear-gradient(120deg,#0077ff,#00b894); color: white; }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 2rem; }
+    .card { background: white; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform .2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-top: 0; color: #0077ff; }
+    .card p { font-size: .95rem; }
+    footer { background: #212121; color: white; text-align: center; padding: 1.5rem; }
+    a.btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #0077ff; color: white; border-radius: 0.5rem; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muhil K B</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+   
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>IoT | AI | App Development | UI/UX Design</h2>
+    <p>Turning ideas into connected, human-centered solutions.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>1. IoT Attendance System</h3>
+        <p>Automated attendance system using RFID and NodeMCU that records entries in real-time to a cloud database.</p>
+        <a class="btn" href="https://drive.google.com/drive/folders/10yYkm-zGa1FXyO8JNPvvRLMJiCf3Pf_L" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>2. Figma UI – AttendiQ Website</h3>
+        <p>Teacher and student dashboard design showing attendance and timetables with modern UI principles.</p>
+        <a class="btn" href="https://www.figma.com/design/dB7e4I9rayMKTwhQaDqfBm/AttendiQ-website?node-id=0-1&p=f&t=HL9xAAT5gRar5swA-0" target="_blank">Open Figma</a>
+      </div>
+      <div class="card">
+        <h3>3. AI Mental Health Chatbot</h3>
+        <p>Privacy-first voice-enabled chatbot using Streamlit and Ollama (LLaMA 3) for supportive offline conversations.</p>
+        <a class="btn" href="https://github.com/Muhil25kb/Mental-health-chartbot" target="_blank">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>4. MIT App Inventor – Inventory Tracker</h3>
+        <p>Android app to manage stock items with add/edit/delete and Firebase sync for small shops or labs.</p>
+        <a class="btn" href="https://ai2.appinventor.mit.edu/#5293230315864064" target="_blank">Open App</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+   
+    <p>💻 GitHub: <a href="https://github.com/Muhil25kb" target="_blank">Muhil25kb</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Muhil Muhil | Designed & Developed by Muhil</p>
+  </footer>
+</body>
+</html>
